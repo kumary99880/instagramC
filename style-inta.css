@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    background-color: #beb5b5;
+}
+header{
+    position: fixed;
+    width: 25%;
+    height: 90%;
+   margin: 40px 130px;
+   left: 250px;
+   background-color: white;
+   border-radius: 20px;
+ 
+   box-shadow: -10px -10px  10px rgba(157, 27, 27, 0.952);
+}
+header .head-logo {
+    position: relative;
+    width: 340px;
+    height: 10px;
+    top: 4px;
+
+
+
+}
+header .head-logo .logo-left {
+    position: relative;
+    width: 90px;
+    height: 10px;
+    top: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+header .head-logo .logo-left i{
+    position:relative;
+    font-size: 10px;
+    margin-left: -12px;
+    display: flex;
+    justify-content: space-between;
+    left: -2px;
+  
+
+}
+header .head-logo .logo-left h4{
+    position: relative;
+   font-size: 10px;
+   top: -1px;
+   float: left;
+   left: -6px;
+}
+header .head-logo .logo-right {
+    position: absolute;
+    width: 190px;
+    height: 10px;
+    top: -1px;
+    float: right;
+    left: 140px;
+    font-size: 10px;
+}
+header .head-logo .logo-right p{
+    position: absolute;
+    left: 70px;
+    
+}
+header .sidebar{
+  position: absolute;
+min-width: 330px;
+height: 500px;
+margin-top: 10px;
+overflow-y: scroll;
+scroll-behavior: smooth;
+
+}
+header .sidebar::-webkit-scrollbar{
+  display: none;
+}
+header .sidebar .headerbar{
+    position: relative;
+    width: 330px;
+    height: 20px;
+    top: 20px;
+    left: -8px;
+    
+}
+header .sidebar .headerbar .headerbar_logo_left{
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    top: -10px;
+    font-size: 8px;
+    font-style: italic;
+    left: 20px;
+    
+}
+header .sidebar .headerbar .headerbar_logo_right{
+    position: absolute;
+    left: 250px;
+    top: -10px;
+    display: flex;
+    justify-content: center;
+
+}
+header .sidebar .headerbar .headerbar_logo_right .heart{
+  margin-left: 20px;  
+}
+header .headerbar .headerbar_logo_right .heart #div{
+    position: absolute;
+    width: 7px;
+  height: 7px;
+  border-radius: 15px;
+  background-color: red;
+  top: -1px;
+  left: 30px;
+ 
+  }
+header .sidebar .headerbar .headerbar_logo_right .noti{
+    margin-left: 20px;  
+  }
+  header .sidebar .headerbar .headerbar_logo_right .noti #div-13{
+  position: absolute;
+    width: 15px;
+  height: 12px;
+  font-size: 10px;
+  border-radius: 10px;
+  color:white;
+  background-color: red;
+  left: 65px;
+  top: -2px;
+  }
+  header .sidebar nav{
+    position: relative;
+    width: 330px;
+    height: 70px;
+ 
+    top: 10px;
+    
+    
+ 
+   
+  }
+  header .sidebar nav .status{
+   position: absolute;
+    width: 325px;
+    height: 90px;
+    top: 2px;
+     overflow-x: scroll;
+     padding: 5px;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    scroll-behavior: smooth;
+    margin-top: 2px;
+    margin-bottom: 10px;
+   
+   
+  }
+
+  header .sidebar nav .status::-webkit-scrollbar{
+    display: none;
+  }
+
+  header .sidebar nav .status .status-scoll img{
+    position: relative;
+    width: 65px;
+    height: 62px;
+    border-radius: 100px;
+
+    top: -10px;
+    left: 1px;
+    margin-left: 10px; 
+     margin-top: 1px;
+  }
+  header .sidebar nav .status .status-scoll .story{
+   
+    width: 69px;
+    height: 65px;
+    border-radius: 110px;
+    outline: 2px solid rgba(223, 7, 50, 0.906);
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    margin-left: 7px;
+    margin-top: -77px;
+    margin-bottom: 10px;
+    margin-right: 4px;
+  }
+  header .sidebar nav .status .status-scoll .status_name{
+    position: absolute;
+    font-size: 10px;
+    margin-left: 30px;
+    margin-top: -5px;
+    margin-bottom: 10px;
+  }
+  header .sidebar nav .status .status-scoll .plus{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 65px;
+    top: 50px;
+  }
+
+  header .sidebar nav .status .status-scoll .name p{
+    position: absolute;
+    font-size: 10px;
+    top: 75px;
+    left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  header .sidebar .content img {
+   
+    width: 337px;
+    height: 280px;
+    margin-top: 50px;
+   
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+
+    
+
+  }
+  header .sidebar .content .profile{
+    position: absolute;
+    width: 320px;
+    height: 20px;
+ 
+   margin-top: 8px;
+                
+   
+  }
+  header .sidebar .content .profile i{
+   
+    float: right;
+    color: black;
+  }
+  header .sidebar .content .profile .profile-photo img{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    top: -52px;
+    left: 9px;
+ 
+  }
+  header .sidebar .content .profile .profile-photo h1{
+    position: absolute;
+    color: black;
+    font-size: 10px;
+    left: 35px;
+    top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header .sidebar .content .like{
+    width: 80px;
+    height: 20px;
+  position: relative;
+  justify-content: space-evenly;
+  align-items: center;
+  top: -45;
+  left: -1px;
+   display: flex;
+  }
+ 
+  header .sidebar .content .save{
+    margin-left: 310px;
+    margin-top: -65px;
+  }
+  header .sidebar .content .comment{
+    width: 200px;
+    height: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  header .sidebar .content .comment .like-photo img{
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+   margin-left: -94px;
+  
+   margin-top: 50px;
+
+  }
+  header .sidebar .content .comment h3{
+    position: absolute;
+    font-size: 10px;
+    left: 33px;
+  
+  }
+  header .sidebar .content p{
+    position: absolute;
+    font-size: 10px;
+    left: 10px;
+  }
+  /* header .sidebar .content .content-scroll img{
+    position: absolute;
+    width: 337px;
+    max-height: 300px;
+    border: 2px solid red;
+    margin-top: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  } */
+  header .sidebar .requested{
+    /* position: relative; */
+    width: 335px;
+    height: 170px;
+    background-color: #ede5e5;
+   
+  
+    margin-top: 40px;
+    margin-bottom: -40px;
+    padding: 30px 0px 10px 0px;
+  }
+  header .sidebar .requested .hello{
+    width: 120px;
+    height: 20px;
+   
+    margin-top: -20px;
+    display: flex;
+    margin-top: -30px;
+
+  }
+ 
+  header .sidebar .requested .suggested{
+    /* position: relative; */
+    width: 330px;
+    height: 180px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+   display: flex;
+   justify-content: space-evenly;
+   
+    margin-top: 5px;
+    
+  } header .sidebar .requested .suggested::-webkit-scrollbar{
+    display: none;
+  }
+ 
+  header .sidebar .requested .suggested .friend{
+    /* position: absolute; */
+    width: 152px;
+    height: 170px;
+    background-color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   left: 10px;
+   
+  
+  }
+  header .sidebar .requested .suggested .friend .friend_logo img{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 60px;
+    margin-top: 3px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+   
+  }
+  header .sidebar .requested .suggested
+  .friend .friend_logo .cross{
+    position: absolute;
+   width: 20px;
+   height: 15px; 
+   font-size: 12px;
+  
+   left: 130px;
+
+  
+ }
+  header .sidebar .requested .suggested .friend .self-name{
+    position: relative;
+    width: 60px;
+    height: 60px;
+   
+    font-size: 10px;
+  }
+  header .sidebar .requested .suggested .friend .follow-by{
+    position: relative;
+    width: 120px;
+    height: 20px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -8px;
+  }
+  header .sidebar .requested .suggested .friend .follow-back{
+    position: relative;
+    width: 130px;
+    height: 20px;
+   
+    border-radius: 5px;
+    margin-left: -15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8px;
+    background-color: blue;
+    color: white;
+  
+  }
+ 
+  
+  
+  header footer{
+    position: fixed;
+    width: 340px;
+    height: 50px;
+   top: 570px;
+   border-radius: 0px 0px 20px 20px;  
+  }
+header footer .footer-logo{
+  position: absolute;
+  width: 335px;
+  height: 30px;
+ top: 0px;
+ left: 15px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+header footer .footer-logo .footer-image img{
+  position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    top: 2px;
+    left: -25px;
+    margin-left: 10px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
